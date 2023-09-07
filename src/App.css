@@ -1,0 +1,430 @@
+body {
+  min-height: 100%;
+  margin: 0;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.imglast{
+
+  padding-top: 10%;
+}
+
+.achive{
+
+
+  padding-top: 30px;
+  margin-top: 30px;
+}
+.headline span
+{
+
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+      
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.left-content h1{
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 10s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.left-content p {
+  border-right: solid 3px rgba(126, 10, 2, 0.75);
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Animation */
+.left-content p {
+  animation: animated-text 1s steps(100,end) 4s 1 normal both,
+             animated-cursor 600ms steps(10,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 502px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(255, 166, 0, 0.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
+/* Mobile Devices (Phones) //////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 767px) {
+  /* Styles for mobile devices go here */
+
+
+  .read-more-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition effect */
+  }
+  /* Hover effect */
+  .read-more-btn:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+    color: #fff; /* Change the text color on hover (if needed) */
+  }
+
+  .left-content {
+    /* flex: 6 1; */
+    padding: 2px;
+    width: 93%;
+    /* margin-right: 20px; */
+}
+
+  .container {
+    font-family: Aeonik-Regular, Tahoma, sans-serif;
+    padding: 20px;
+    margin: auto;
+    font-size: 8px;
+    max-width: 100%;
+
+    /* Added max-width for responsiveness */
+  }
+  .headline span {
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #231557 0%, #44107a 2%, #ff1361 67%, #fff800 100% );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 187% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 33px;
+}
+.containertwo  {
+  margin: 0;
+  
+  padding: 0;
+  /* display: flex; */
+  flex-wrap: nowrap;
+}
+
+.containerthree {
+  padding-top: 20%;
+  margin: 0;
+  padding-top: 10%;
+  flex-direction: row-reverse;
+  /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+}
+
+.containerfour {
+  margin: 0;
+  
+  padding: 0;
+  /* display: flex; */
+  flex-wrap: nowrap;
+}
+
+.containerfive {
+  padding-top: 20%;
+  margin: 0;
+  padding-top: 10%;
+  flex-direction: row-reverse;
+  /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+}
+
+.containerthree  {
+  padding-top: 20%;
+  margin: 0;
+
+  padding-top: 10%;
+  /* display: flex; */
+  flex-wrap: nowrap;
+}
+
+.containerfour  {
+  padding-top: 20%;
+  margin: 0;
+
+  padding-top: 10%;
+  /* display: flex; */
+  flex-wrap: nowrap;
+}
+.containerfive {
+  padding-top: 20%;
+  margin: 0;
+  
+  padding-top: 10%;
+  /* display: flex; */
+  flex-wrap: nowrap;
+}
+.p_vis img{
+  max-width: 100%;
+}
+
+
+.left-content p {
+  max-width: fit-content;
+  border-right: solid 3px rgba(126, 10, 2, 0.75);
+  overflow: hidden;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.imglast img{
+
+
+  max-width: 100%;
+}
+
+.p_vis img {
+  padding-top: 25px;
+  max-width: 100%;
+}
+.lastintro{
+
+  padding-top: 40px;
+  font-size: 15px;
+}
+
+.abotmerow {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  font-size: 16px;
+  padding-top: 18px;
+  padding-bottom: 108px;
+}
+}
+
+/* .................................................................................................................. */
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for tablets go here */
+}
+
+/* Desktop and Large Screens */
+@media screen and (min-width: 1024px) {
+  /* Styles for desktop and large screens go here */
+
+  .container {
+    font-family: Aeonik-Regular, Tahoma, sans-serif;
+    padding: 85px;
+    padding-top: 189px;
+    margin: auto;
+    max-width: 100%;
+}
+  
+
+.headline span {
+  font-size: 44px;
+  font-weight: 400;
+}
+  
+  .p1 {
+    display: flex;
+  }
+  
+  .content{
+  
+    margin-top: 200px;
+  }
+  .headlineProject h1{
+    font-size: 60px;
+    margin: auto;
+    color: white;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+    
+  }
+
+
+  .abotmerow{
+
+   
+  
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .abotme{
+    padding-top: 10%;
+  }
+  
+  .abotmerow h4 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  
+
+
+
+
+
+
+
+
+/* Reset default margin and padding for the component */
+.containertwo  {
+  margin: 0;
+  display: flex;
+  padding: 0;
+  /* display: flex; */
+  flex-wrap: nowrap;
+}
+
+/* Style for the left content */
+.left-content {
+  /* flex: 6 1; */
+  padding: 30px;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.headline  {
+  font-size: 24px;
+  margin-bottom: 130px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.read-more-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Style for the right content (image) */
+
+img {
+  width: 66%;
+  height: auto;
+}
+/* Button styles */
+.read-more-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition effect */
+}
+/* Hover effect */
+.read-more-btn:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover (if needed) */
+}
+.p_vis{
+  width: 50%;
+}
+.containerthree  {
+  padding-top: 20%;
+  margin: 0;
+  display: flex;
+  padding-top: 10%;
+  /* display: flex; */
+  flex-wrap: nowrap;
+}
+
+.containerfour  {
+  padding-top: 20%;
+  margin: 0;
+  display: flex;
+  padding-top: 10%;
+  /* display: flex; */
+  flex-wrap: nowrap;
+}
+.containerfive {
+  padding-top: 20%;
+  margin: 0;
+  display: flex;
+  padding-top: 10%;
+  /* display: flex; */
+  flex-wrap: nowrap;
+}
+.abotme {
+  padding-top: 1%;
+}
+.lastintro{
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+}
