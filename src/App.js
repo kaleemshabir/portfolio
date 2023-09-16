@@ -4,6 +4,8 @@ import mobileImage from "./assets/mobileone.jpg";
 import mobilethreeImg from "./assets/mobilthree.png";
 import mobilefiveImg from "./assets/mobilefive.jpg";
 import mobilesixImg from "./assets/mobilesix.png";
+
+
 import { Link } from "react-router-dom";
 
 function App() {

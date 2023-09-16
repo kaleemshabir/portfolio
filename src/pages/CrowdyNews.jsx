@@ -1,7 +1,127 @@
+import "./CrowdyNews.css";
+import mobilesixImg from "../assets/mobilesix.png";
+import scrollaImg from "../assets/plant.jpg"
 const CrowdyNews = () => {
   return (
-    <div>
-      <h2>Social Media Content Curation and Widget Platform</h2>
+    <div className="body">
+      <h2 className="cn_header">
+        Social Media Content Curation and Widget Platform
+      </h2>
+
+      <div className="container_one">
+        <div className="left-column">
+          <h2>My Role:</h2>
+          <p>
+            As the Vue.js Developer and Website Designer, my responsibilities
+            included:
+          </p>
+          <ul>
+            <li>
+              Component Development: I designed and developed Vue.js components
+              to create a responsive and interactive user interface, ensuring an
+              optimal user experience.
+            </li>
+            <li>
+              Vuex for Data Management: I leveraged Vuex, a state management
+              library for Vue.js, to efficiently manage and synchronize data
+              across the application. This played a pivotal role in ensuring
+              real-time content updates and a seamless user experience.
+            </li>
+            <li>
+              Integration: I seamlessly integrated these components into the
+              platform, ensuring that they worked harmoniously with the PHP
+              backend.
+            </li>
+            <li>
+              Unit Testing: To guarantee the reliability and performance of our
+              platform, I conducted rigorous unit testing of the Vue.js
+              components and resolved any issues promptly.
+            </li>
+            <li>
+              Performance Optimization: My efforts in optimizing the front-end
+              significantly reduced load times, resulting in a more efficient
+              and user-friendly experience.
+            </li>
+          </ul>
+        </div>
+        <div className="right-column">
+          <h4>Results</h4>
+          <p>
+            The transformation of this PHP app into a Vue.js-powered content
+            curation and widget platform has garnered positive feedback from
+            users and brands alike. The increased website traffic and engagement
+            metrics clearly indicate the success of this project, with my role
+            as a Vue.js developer and website designer playing a crucial part in
+            its achievement.
+          </p>
+        </div>
+      </div>
+
+      <img src={mobilesixImg} alt="mobilesix" className="fullimg" />
+
+      <div className="container_b">
+        {/* First Row */}
+        <div className="row_a">
+          <div className="column_a col-left_a">
+            <h1>Benefits:</h1>
+            <ul>
+              <li>
+                Enhanced User Engagement: By curating and displaying engaging
+                content from various social media platforms, users can increase
+                their website's visitor engagement and retention.
+              </li>
+              <li>
+                Increased Website Traffic: The widget conversion module acts as
+                a traffic magnet, drawing more visitors to users' websites and
+                delivering tangible results.
+              </li>
+              <li>
+                Brand Exposure: Our platform offers brands a strategic
+                opportunity to promote their web content, effectively increasing
+                their online presence and customer reach.
+              </li>
+              <li>
+                Data-Driven Decisions: The platform empowers users to make
+                informed decisions by providing access to valuable social media
+                insights and trends.
+              </li>
+            </ul>
+          </div>
+          <div className="column_a col-right_a">
+            <h1>Technical Details:</h1>
+            <ul>
+              <li>
+                Enhanced User Engagement: By curating and displaying engaging
+                content from various social media platforms, users can increase
+                their website's visitor engagement and retention.
+              </li>
+              <li>
+                Increased Website Traffic: The widget conversion module acts as
+                a traffic magnet, drawing more visitors to users' websites and
+                delivering tangible results.
+              </li>
+              <li>
+                Brand Exposure: Our platform offers brands a strategic
+                opportunity to promote their web content, effectively increasing
+                their online presence and customer reach.
+              </li>
+              <li>
+                Data-Driven Decisions: The platform empowers users to make
+                informed decisions by providing access to valuable social media
+                insights and trends.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Second Row */}
+        <div className="row">
+          <div className="column_ col-left_a">{/* Empty Left Column */}</div>
+          <div className="column_a col-right_a">
+          <img src={scrollaImg} alt="mobilesix" className="fullimg" />          </div>
+        </div>
+      </div>
+
       <div>
         <h3>Project Overview:</h3>
         <p>
@@ -73,9 +193,18 @@ const CrowdyNews = () => {
       </div>
       <div>
         <h2>My Role:</h2>
-        As the Vue.js Developer and Website Designer, my responsibilities
-        included:
-        <ul>
+
+        <p>
+          As a Vue.js developer and website designer, I was responsible for
+          creating responsive and interactive user interfaces by designing and
+          developing Vue.js components. I utilized Vuex for efficient data
+          management and synchronization, ensuring real-time content updates.
+          Integration with the PHP backend was seamless, and I conducted
+          thorough unit testing to ensure platform reliability. Additionally, I
+          focused on front-end performance optimization, significantly reducing
+          load times for an improved user experience.
+        </p>
+        {/* <<ul>
           <li>
             1.<strong>Component Development:</strong> I designed and developed
             Vue.js components to create a responsive and interactive user
@@ -103,7 +232,7 @@ const CrowdyNews = () => {
             optimizing the front-end significantly reduced load times, resulting
             in a more efficient and user-friendly experience.
           </li>
-        </ul>
+        </ul>> */}
       </div>
       <div>
         <h2>Benefits:</h2>
