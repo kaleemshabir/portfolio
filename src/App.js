@@ -18,8 +18,10 @@ function App() {
       </div>
 
       <div className="containertwo">
-        <div className="left-content">
-          <h1>gCUJO — Home Internet Security</h1>
+        <div className="left-content  ">
+
+      
+          <h1>Gcujo — Home Internet Security</h1>
           <p>
             CUJO is a home internet security company, providing the power of
             enterprise security solutions in a simple and elegant device. I
@@ -37,9 +39,14 @@ function App() {
           </button>
         </div>
 
+
+
+
+        
         <div className="p_vis">
-          <img src={planetSportImg} />
+          <img src={planetSportImg} style={{width:"100%", }} />
         </div>
+      
       </div>
 
       <div className="containerthree">
@@ -81,7 +88,7 @@ function App() {
           <button className="read-more-btn">Read More</button>
         </div>
         <div className="p_vis">
-          <img src={mobilethreeImg} />
+          <img src={mobilethreeImg}   />
         </div>
       </div>
 
@@ -144,6 +151,7 @@ function App() {
         </div>
       </div>
     </div>
+    
   );
 }
 
